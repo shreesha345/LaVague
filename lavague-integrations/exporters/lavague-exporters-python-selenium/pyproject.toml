@@ -9,8 +9,8 @@ packages = [{include = "lavague/"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-lavague-sdk = {path = "../../../lavague-sdk", develop = true} # change to pypi dep when public release
-lavague-exporters-python = {path = "../lavague-exporters-python", develop = true}
+lavague-sdk = ">=0.1.0"
+lavague-exporters-python = ">=0.1.0"
 
 [build-system]
 requires = ["poetry-core"]
